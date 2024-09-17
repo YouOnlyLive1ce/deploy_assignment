@@ -1,0 +1,4 @@
+[core]
+    remote = dvc_remote_pmldl
+['remote "dvc_remote_pmldl"']
+    url = gdrive://1gYKTCRV50UB6_4uAtLg_d_SHatJSMpWp
