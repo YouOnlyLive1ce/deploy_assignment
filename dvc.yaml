@@ -2,7 +2,7 @@ stages:
   preprocess:
     cmd: python scripts/trades_processing.py
     deps:
-    - data/raw/
+    - data/raw
     - scripts/trades_processing.py
     outs:
-    - outputs/processed/
+    - data/processed

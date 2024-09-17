@@ -3,18 +3,18 @@ stages:
   preprocess:
     cmd: python scripts/trades_processing.py
     deps:
-    - path: data/raw/
+    - path: data/raw
       hash: md5
       md5: 4a5632de6036caeeb80abceb73ce4416.dir
       size: 229765500
       nfiles: 1
     - path: scripts/trades_processing.py
       hash: md5
-      md5: c162b08e3ad74b1cf15d6d83a4a56302
-      size: 2226
+      md5: 1f6d41e363c817e352b3a6fdf0ffd32d
+      size: 2555
     outs:
-    - path: outputs/processed/
+    - path: data/processed
       hash: md5
-      md5: 5eac0c028e296bc71a855defad9d60aa.dir
-      size: 15359789
-      nfiles: 1
+      md5: 833b4f04098e7662dd32890014f7730c.dir
+      size: 130996081
+      nfiles: 2

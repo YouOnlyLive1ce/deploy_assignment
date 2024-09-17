@@ -3,4 +3,6 @@
 # https://dvc.org/doc/user-guide/dvcignore
 deploy_assignment/
 src/ 
-scripts/ 
+scripts/
+notebooks/
+services/
