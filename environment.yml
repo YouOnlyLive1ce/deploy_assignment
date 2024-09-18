@@ -10,6 +10,7 @@ dependencies:
   - scikit-learn
   - streamlit
   - requests
+  - hydra-core
   - pip
   - pip:
       - "fastapi[standard]"

@@ -14,8 +14,8 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
             # 2 - qty
             # 3 - quote_qty
             # 4 - timestamp
-            # 5 - bool_1
-            # 6 - bool_2
+            # 5 - isBuyerMaker
+            # 6 - isBestMatch
                         
             if chunk.shape[1] > 0:  # Check if the chunk has any columns
                 chunk = chunk.drop(columns=[0])  # Drop the first column (trade_id)
