@@ -6,3 +6,9 @@ stages:
     - src/trades_processing.py
     outs:
     - data/processed
+  plot:
+    cmd: jupyter notebook ./notebooks/processed_data_distribution.ipynb
+    deps:
+      - data/processed
+    outs:
+      - notebooks/plot_results.ipynb

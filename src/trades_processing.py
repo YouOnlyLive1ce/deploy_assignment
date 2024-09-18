@@ -30,7 +30,7 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
             bins = [0, 50, 250, 500, 1000, 3000, 200000]
             labels = ['0-50', '50-250', '250-500', '500-1000', '1000-3000', '3000-200000']
             chunk['quote_qty_bins'] = pd.cut(chunk[3], bins=bins, labels=labels, include_lowest=True)
-            chunk=chunk.drop(columns=[3])
+            chunk=chunk.drop(columns=[3,4,6])
 
             # Split into train/test (90/10 split)
             train, test = train_test_split(chunk, test_size=0.1)

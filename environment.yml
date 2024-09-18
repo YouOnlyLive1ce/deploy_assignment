@@ -3,6 +3,7 @@ dependencies:
   - python=3.9
   - numpy
   - pandas
+  - seaborn
   - mlflow
   - streamlit
   - fastapi
@@ -10,10 +11,10 @@ dependencies:
   - scikit-learn
   - streamlit
   - requests
-  - hydra-core
   - pip
   - pip:
       - "fastapi[standard]"
       - dvc
       - dvc[gdrive]
       - apache-airflow
+      - hydra-core

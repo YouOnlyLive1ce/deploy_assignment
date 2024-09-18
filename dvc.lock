@@ -5,16 +5,16 @@ stages:
     deps:
     - path: data/raw
       hash: md5
-      md5: ec44bd4b1c18d5fe56fe356fa0162034.dir
-      size: 516051177
+      md5: ceec1d6ad38210684810a7803b4a3a83.dir
+      size: 516051176
       nfiles: 2
     - path: src/trades_processing.py
       hash: md5
-      md5: 9dd67bce71c3dd45e22e861ceaf9b24a
-      size: 2566
+      md5: 53215faf43da3858c0d67c3bae8174d3
+      size: 2510
     outs:
     - path: data/processed
       hash: md5
-      md5: 759c801368ad336dc2500740e45f3993.dir
-      size: 294080136
+      md5: b1a8284d0a2e775384ff27f8fa7a5e76.dir
+      size: 152812895
       nfiles: 4

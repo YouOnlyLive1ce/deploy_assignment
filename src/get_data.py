@@ -1,0 +1,1 @@
+# TODO: write script to download csv from binance
