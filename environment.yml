@@ -9,8 +9,10 @@ dependencies:
   - fastapi
   - uvicorn
   - scikit-learn
+  - scipy
   - streamlit
   - requests
+  - pickle
   - pip
   - pip:
       - "fastapi[standard]"
