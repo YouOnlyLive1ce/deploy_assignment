@@ -1,0 +1,2 @@
+task: trade-classification
+model: models/hierarchical_clustering_model700.pkl

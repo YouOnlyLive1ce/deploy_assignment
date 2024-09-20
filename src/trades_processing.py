@@ -74,7 +74,7 @@ def main():
         filename = os.path.basename(input_file)
         output_file_train = os.path.join(output_folder, f"train_{filename}")
         output_file_test = os.path.join(output_folder, f"test_{filename}")
-
+        
         print(f"Processing file: {input_file}")
         process_trades_in_chunks(input_file, output_file_train, output_file_test)
 
