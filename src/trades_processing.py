@@ -43,10 +43,7 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
             middle_quantity_rows = chunk[chunk[2] < 0.5]
             chunk = chunk.drop(middle_quantity_rows.sample(frac=0.99).index)
             
-            # Normalize the data
             chunk.columns = chunk.columns.astype(str)
-            scaler = StandardScaler()
-            chunk[['1','2']] = scaler.fit_transform(chunk[['1','2']]).astype('float32')
             chunk['1']=chunk['1'].round(3).astype('float32')
             chunk['2']=chunk['2'].round(3).astype('float32')
             chunk['6']=chunk['6'].astype('int32')
@@ -54,6 +51,12 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
             chunk['percent_to_1000']=chunk['percent_to_1000'].astype('int32')
             chunk['price_seen_before'] = chunk['price_seen_before'].astype('int32')
 
+            chunk = chunk.rename(columns={
+                '1': 'price',
+                '2': 'qty',
+                '6': 'isBuyerMaker',
+                '7': 'isBestMatch'
+            })
             train, test = train_test_split(chunk, test_size=0.2)
             
             # Write train and test chunks to respective output files
@@ -82,5 +85,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# TODO: transformer scaler to fix curve ditribution
