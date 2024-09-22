@@ -1,0 +1,1 @@
+# little function for training 

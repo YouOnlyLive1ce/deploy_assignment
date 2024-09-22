@@ -1,11 +1,9 @@
-from fastapi import FastAPI, Body
+from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from ml.pipeline import model_pipeline
 import pandas as pd
 from pydantic import BaseModel
-from typing import List
 import yaml
-import json
 from pathlib import Path
 
 ml_models = {}
@@ -38,10 +36,8 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 @app.post("/predict", response_model=ImportancePrediction)
-async def predict(data: InputData = Body(...), model_name: str = Body(...)):
+async def predict(data: InputData, model_name: str):
     data_df = pd.DataFrame([data.dict()])
     data_df.columns=['price','qty','isBuyerMaker','isBestMatch','percent_to_1000','aggregated_trades','price_seen_before']
     result = ml_models[model_name](data_df, model_name)
     return ImportancePrediction(prediction=result)
-
-# TODO: not with Body?
