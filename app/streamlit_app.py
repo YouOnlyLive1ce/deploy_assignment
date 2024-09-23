@@ -3,7 +3,7 @@ import requests
 from pydantic import BaseModel
 
 # Define the URL for the FastAPI backend
-FASTAPI_URL = "http://0.0.0.0:8080/predict"
+FASTAPI_URL = "http://fastapi:80/predict"
 
 # Set the title of the Streamlit app
 st.title("Trades Classification")
