@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/46c28b552993423d90a13eba40ff7746/artifacts
+end_time: 1727122694357
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46c28b552993423d90a13eba40ff7746
+run_name: bouncy-eel-659
+run_uuid: 46c28b552993423d90a13eba40ff7746
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727122677883
+status: 3
+tags: []
+user_id: dima

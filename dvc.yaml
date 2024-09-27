@@ -1,13 +1,13 @@
 stages:
   preprocess:
-    cmd: python src/trades_processing.py
+    cmd: python src/data_preprocessing/trades_processing.py
     deps:
     - data/raw
-    - src/trades_processing.py
+    - src/data_preprocessing/trades_processing.py
     outs:
     - data/processed
   plot:
-    cmd: jupyter notebook ./notebooks/processed_data_distribution.ipynb
+    cmd: jupyter notebook notebooks/processed_data_distribution.ipynb
     deps:
       - data/processed
     outs:

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/12fbd14a8bc24d75b28aca1b1114946b/artifacts
+end_time: 1727118135668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12fbd14a8bc24d75b28aca1b1114946b
+run_name: lyrical-gull-488
+run_uuid: 12fbd14a8bc24d75b28aca1b1114946b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727117968491
+status: 3
+tags: []
+user_id: dima

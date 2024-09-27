@@ -12,9 +12,10 @@ dependencies:
   - scipy
   - streamlit
   - requests
-  - pickle
   - xgboost
   - pydantic
+  - pyyaml
+  - pyarrow
   - pip
   - pip:
       - "fastapi[standard]"
@@ -22,3 +23,4 @@ dependencies:
       - dvc[gdrive]
       - apache-airflow
       - hydra-core
+      - feast

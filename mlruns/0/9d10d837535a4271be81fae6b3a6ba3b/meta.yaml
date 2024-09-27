@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/9d10d837535a4271be81fae6b3a6ba3b/artifacts
+end_time: 1727122694493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9d10d837535a4271be81fae6b3a6ba3b
+run_name: awesome-moose-427
+run_uuid: 9d10d837535a4271be81fae6b3a6ba3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727122677883
+status: 3
+tags: []
+user_id: dima

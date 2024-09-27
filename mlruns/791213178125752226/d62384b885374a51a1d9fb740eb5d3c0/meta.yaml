@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/791213178125752226/d62384b885374a51a1d9fb740eb5d3c0/artifacts
+end_time: 1727176823102
+entry_point_name: ''
+experiment_id: '791213178125752226'
+lifecycle_stage: active
+run_id: d62384b885374a51a1d9fb740eb5d3c0
+run_name: clumsy-kit-926
+run_uuid: d62384b885374a51a1d9fb740eb5d3c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727176806614
+status: 3
+tags: []
+user_id: dima

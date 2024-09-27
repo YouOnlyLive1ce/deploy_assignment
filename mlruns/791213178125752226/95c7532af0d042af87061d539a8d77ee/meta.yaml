@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/791213178125752226/95c7532af0d042af87061d539a8d77ee/artifacts
+end_time: 1727176383219
+entry_point_name: ''
+experiment_id: '791213178125752226'
+lifecycle_stage: active
+run_id: 95c7532af0d042af87061d539a8d77ee
+run_name: orderly-cow-914
+run_uuid: 95c7532af0d042af87061d539a8d77ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727176366391
+status: 3
+tags: []
+user_id: dima

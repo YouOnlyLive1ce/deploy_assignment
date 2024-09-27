@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/7fcb559a42b244b2a997dca4229af78e/artifacts
+end_time: 1727118135668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fcb559a42b244b2a997dca4229af78e
+run_name: rambunctious-lynx-21
+run_uuid: 7fcb559a42b244b2a997dca4229af78e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727117968491
+status: 3
+tags: []
+user_id: dima

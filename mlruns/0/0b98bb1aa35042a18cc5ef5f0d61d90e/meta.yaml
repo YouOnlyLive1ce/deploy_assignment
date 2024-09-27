@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/0b98bb1aa35042a18cc5ef5f0d61d90e/artifacts
+end_time: 1727119239970
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0b98bb1aa35042a18cc5ef5f0d61d90e
+run_name: legendary-colt-462
+run_uuid: 0b98bb1aa35042a18cc5ef5f0d61d90e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727119221276
+status: 3
+tags: []
+user_id: dima

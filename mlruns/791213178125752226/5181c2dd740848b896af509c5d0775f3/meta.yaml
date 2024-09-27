@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/791213178125752226/5181c2dd740848b896af509c5d0775f3/artifacts
+end_time: 1727177099038
+entry_point_name: ''
+experiment_id: '791213178125752226'
+lifecycle_stage: active
+run_id: 5181c2dd740848b896af509c5d0775f3
+run_name: casual-worm-767
+run_uuid: 5181c2dd740848b896af509c5d0775f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727177080055
+status: 3
+tags: []
+user_id: dima

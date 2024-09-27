@@ -1,0 +1,4 @@
+absolute_project_path: ~/pmldl/deploy_assignment
+feast_registry_path: data/feast
+traintest: train
+day: 16

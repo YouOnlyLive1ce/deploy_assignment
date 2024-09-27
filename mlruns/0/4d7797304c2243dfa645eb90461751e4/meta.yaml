@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/4d7797304c2243dfa645eb90461751e4/artifacts
+end_time: 1727122694357
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d7797304c2243dfa645eb90461751e4
+run_name: handsome-flea-53
+run_uuid: 4d7797304c2243dfa645eb90461751e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727122677883
+status: 3
+tags: []
+user_id: dima

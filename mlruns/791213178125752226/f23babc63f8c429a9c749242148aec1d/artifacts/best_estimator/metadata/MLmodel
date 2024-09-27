@@ -1,0 +1,28 @@
+artifact_path: best_estimator
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.12.2
+model_size_bytes: 413839
+model_uuid: 26913d7e209d48f08224edfc442e734c
+run_id: f23babc63f8c429a9c749242148aec1d
+signature:
+  inputs: '[{"type": "double", "name": "price", "required": true}, {"type": "double",
+    "name": "qty", "required": true}, {"type": "long", "name": "isBuyerMaker", "required":
+    true}, {"type": "long", "name": "isBestMatch", "required": true}, {"type": "long",
+    "name": "percent_to_1000", "required": true}, {"type": "long", "name": "aggregated_trades",
+    "required": true}, {"type": "long", "name": "price_seen_before", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-09-24 11:24:57.805318'

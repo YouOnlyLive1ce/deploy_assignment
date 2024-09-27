@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/791213178125752226/c08b252774594159979313facbaf343a/artifacts
+end_time: 1727176823102
+entry_point_name: ''
+experiment_id: '791213178125752226'
+lifecycle_stage: active
+run_id: c08b252774594159979313facbaf343a
+run_name: judicious-shrimp-375
+run_uuid: c08b252774594159979313facbaf343a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727176806614
+status: 3
+tags: []
+user_id: dima

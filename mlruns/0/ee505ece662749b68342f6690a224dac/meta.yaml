@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/ee505ece662749b68342f6690a224dac/artifacts
+end_time: 1727122694357
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee505ece662749b68342f6690a224dac
+run_name: nebulous-bat-136
+run_uuid: ee505ece662749b68342f6690a224dac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727122677883
+status: 3
+tags: []
+user_id: dima

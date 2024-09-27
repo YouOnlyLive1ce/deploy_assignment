@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/791213178125752226/743470da771a4ee482307458490014eb/artifacts
+end_time: 1727176621509
+entry_point_name: ''
+experiment_id: '791213178125752226'
+lifecycle_stage: active
+run_id: 743470da771a4ee482307458490014eb
+run_name: worried-elk-79
+run_uuid: 743470da771a4ee482307458490014eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727176605224
+status: 3
+tags: []
+user_id: dima

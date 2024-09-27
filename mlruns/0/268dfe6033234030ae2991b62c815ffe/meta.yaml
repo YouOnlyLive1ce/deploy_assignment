@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/268dfe6033234030ae2991b62c815ffe/artifacts
+end_time: 1727119239970
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 268dfe6033234030ae2991b62c815ffe
+run_name: awesome-lark-874
+run_uuid: 268dfe6033234030ae2991b62c815ffe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727119221276
+status: 3
+tags: []
+user_id: dima

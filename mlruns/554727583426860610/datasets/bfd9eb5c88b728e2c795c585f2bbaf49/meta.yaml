@@ -1,0 +1,11 @@
+digest: 3e9fc444
+name: dataset
+profile: '{"num_rows": 36943, "num_elements": 258601}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "0", "required": true}, {"type":
+  "double", "name": "price", "required": true}, {"type": "double", "name": "qty",
+  "required": true}, {"type": "long", "name": "3", "required": true}, {"type": "long",
+  "name": "4", "required": true}, {"type": "long", "name": "5", "required": true},
+  {"type": "long", "name": "isBuyerMaker", "required": true}]}'
+source: '{"tags": {"mlflow.user": "dima", "mlflow.source.name": "src/train.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "0baa4ea0a91bc36228da43dc518ed9ea35773ed3"}}'
+source_type: code

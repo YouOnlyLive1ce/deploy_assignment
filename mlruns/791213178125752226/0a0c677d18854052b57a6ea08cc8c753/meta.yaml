@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/791213178125752226/0a0c677d18854052b57a6ea08cc8c753/artifacts
+end_time: 1727176066298
+entry_point_name: ''
+experiment_id: '791213178125752226'
+lifecycle_stage: active
+run_id: 0a0c677d18854052b57a6ea08cc8c753
+run_name: persistent-yak-401
+run_uuid: 0a0c677d18854052b57a6ea08cc8c753
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727176049497
+status: 3
+tags: []
+user_id: dima

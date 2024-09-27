@@ -1,20 +1,20 @@
 schema: '2.0'
 stages:
   preprocess:
-    cmd: python src/trades_processing.py
+    cmd: python src/data_preprocessing/trades_processing.py
     deps:
     - path: data/raw
       hash: md5
       md5: 6ea3ad847193a3eb1b558aa2a4d18357.dir
       size: 230225616
       nfiles: 2
-    - path: src/trades_processing.py
+    - path: src/data_preprocessing/trades_processing.py
       hash: md5
-      md5: 97b828cce35228562a1792c1d954baa3
-      size: 3654
+      md5: 0644347eb20dc87fde908be49861545f
+      size: 3105
     outs:
     - path: data/processed
       hash: md5
-      md5: e20dbc743c27bf2f6d442f2cfb917fc4.dir
-      size: 768955
+      md5: 3a7193d98feee81542e115372a73b307.dir
+      size: 123357
       nfiles: 4
