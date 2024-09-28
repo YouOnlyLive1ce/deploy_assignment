@@ -27,8 +27,8 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
         
         # Quantization
         chunk.columns = chunk.columns.astype(str)
-        chunk['1']=chunk['1'].round(3).astype('float32')
-        chunk['2']=chunk['2'].round(3).astype('float32')
+        chunk['1']=chunk['1'].astype('float32')
+        chunk['2']=chunk['2'].astype('float32')
         chunk['6']=chunk['6'].astype('int32')
         chunk['7']=chunk['7'].astype('int32')
         
