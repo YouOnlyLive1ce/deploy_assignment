@@ -1,0 +1,23 @@
+feast_registry_path: /data/feast
+datasets:
+  train:
+  - date: '2024-09-16'
+    coin: BTCUSDT
+    endpoint: aggTrades
+  - date: '2024-09-17'
+    coin: BTCUSDT
+    endpoint: aggTrades
+  test:
+  - date: '2024-09-16'
+    coin: BTCUSDT
+    endpoint: aggTrades
+  - date: '2024-09-17'
+    coin: BTCUSDT
+    endpoint: aggTrades
+  val:
+  - date: '2024-09-16'
+    coin: BTCUSDT
+    endpoint: aggTrades
+  - date: '2024-09-17'
+    coin: BTCUSDT
+    endpoint: aggTrades

@@ -5,7 +5,7 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 from sklearn.model_selection import train_test_split
 
-def process_trades_in_chunks(input_file, output_file_train, output_file_test, chunksize=100000):
+def process_trades_in_chunks(input_file, output_file_train, output_file_test,output_file_val, chunksize=100000):
     for chunk in pd.read_csv(input_file, chunksize=chunksize, header=None):
         # Assuming the following index mapping based on Binance aggTrades CSV:
         # Column indices:
@@ -43,18 +43,21 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
             '7': 'isBestMatch'
         })
         train, test = train_test_split(chunk, test_size=0.2)
+        train, val = train_test_split(train, test_size=0.2)
         
         # Write train and test chunks to respective output files
-        # Dataframes do not contain class currently
         train_df = pd.DataFrame(train)
         test_df = pd.DataFrame(test)
+        val_df=pd.DataFrame(val)
         train_df['event_timestamp'] = pd.to_datetime(train_df['event_timestamp'], unit='ms')
         test_df['event_timestamp'] = pd.to_datetime(test_df['event_timestamp'], unit='ms')
-        
+        val_df['event_timestamp'] = pd.to_datetime(val_df['event_timestamp'], unit='ms')
+
         # Save to .parquet
-        # Fix the file paths here
+        # # # Dataframes do not contain class currently
         pq.write_table(pa.Table.from_pandas(train_df), f"{output_file_train}.parquet")
         pq.write_table(pa.Table.from_pandas(test_df), f"{output_file_test}.parquet")
+        pq.write_table(pa.Table.from_pandas(val_df), f"{output_file_val}.parquet")
 
 def main():
     input_folder = 'data/raw/'
@@ -71,9 +74,10 @@ def main():
         
         output_file_train = os.path.join(output_folder, f"train_{filename_without_csv}")
         output_file_test = os.path.join(output_folder, f"test_{filename_without_csv}")
+        output_file_val=os.path.join(output_folder, f"val_{filename_without_csv}")
         
         print(f"Processing file: {input_file}")
-        process_trades_in_chunks(input_file, output_file_train, output_file_test)
+        process_trades_in_chunks(input_file, output_file_train, output_file_test, output_file_val)
 
     print("All files processed.")
 

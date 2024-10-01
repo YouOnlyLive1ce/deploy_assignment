@@ -1,0 +1,9 @@
+# TODO: write script to download csv from binance
+# TODO: aggregate feautures scripts
+# TODO: train on several parquets
+# TODO: one config.yaml
+# several feature views for same file structure?
+# TODO: realtime bigquery+rest+kafka
+# TODO: mlflow ui fix
+# TODO: multirun data feature making
+# TODO: common functions in utils

@@ -1,2 +1,4 @@
-task: trade-importance-classification
-model: xgb700
+defaults:
+  - datasets: default
+  - hydra/sweeper: optuna
+  - services/feast/feast_fs/feature_repo/configs : default

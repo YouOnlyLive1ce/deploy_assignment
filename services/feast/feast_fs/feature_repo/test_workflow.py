@@ -5,7 +5,7 @@ import pandas as pd
 import re
 
 # Function to get the registry path
-@hydra.main(version_base=None, config_path='conf', config_name='config')
+@hydra.main(version_base=None, config_path='configs', config_name='config')
 def get_registry_path(cfg: DictConfig):
     return './' + cfg['feast_registry_path']
 
@@ -13,19 +13,9 @@ def get_registry_path(cfg: DictConfig):
 def get_repo_path():
     return './services/feast/feast_fs/feature_repo'
 
-@hydra.main(version_base=None, config_path='conf', config_name='config')
+@hydra.main(version_base=None, config_path='configs', config_name='config')
 def get_data_path(cfg: DictConfig):
-    data_path = './data/processed/' + cfg.parquet_file
-    
-    # Define the regex pattern to match the filename
-    file_pattern = r'test_BTCUSDT-aggTrades-(\d{4})-(\d{2})-(\d{2})\.parquet'
-    
-    match = re.search(file_pattern, cfg.parquet_file)
-    if match:
-        year = match.group(1)
-        month = match.group(2)
-        day = match.group(3)
-
+    data_path = './data/processed/' + cfg.parquet_file_name+'.parquet'
     return data_path
 
 def load_event_timestamps(data_path):
@@ -37,7 +27,7 @@ def load_ids(data_path):
     return parquet_df['trade_id']
 
 # Main function to get historical features
-@hydra.main(version_base=None, config_path='conf', config_name='config')
+@hydra.main(version_base=None, config_path='configs', config_name='config')
 def main(cfg: DictConfig):
     # Get the registry path
     repo_path = get_repo_path()

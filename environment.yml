@@ -23,4 +23,5 @@ dependencies:
       - dvc[gdrive]
       - apache-airflow
       - hydra-core
+      - hydra-optuna-sweeper
       - feast

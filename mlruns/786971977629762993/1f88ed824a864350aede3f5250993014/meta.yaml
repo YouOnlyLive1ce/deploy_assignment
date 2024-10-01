@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/1f88ed824a864350aede3f5250993014/artifacts
+end_time: 1727723336560
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: 1f88ed824a864350aede3f5250993014
+run_name: run 01
+run_uuid: 1f88ed824a864350aede3f5250993014
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727723336360
+status: 4
+tags: []
+user_id: dima
