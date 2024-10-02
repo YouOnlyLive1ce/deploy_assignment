@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/03911cdb80bd44f7b07e0590010f52a4/artifacts
+end_time: 1727859677220
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: 03911cdb80bd44f7b07e0590010f52a4
+run_name: skittish-sow-633
+run_uuid: 03911cdb80bd44f7b07e0590010f52a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727859668205
+status: 3
+tags: []
+user_id: dima

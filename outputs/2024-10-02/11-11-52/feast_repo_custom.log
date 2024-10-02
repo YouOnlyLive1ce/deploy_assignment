@@ -1,0 +1,5 @@
+[2024-10-02 11:11:52,586][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing
+[2024-10-02 11:11:52,588][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing
+[2024-10-02 11:11:52,588][root][WARNING] - Cannot use sqlite_vec for vector search
+[2024-10-02 11:11:52,617][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing
+[2024-10-02 11:11:52,618][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing

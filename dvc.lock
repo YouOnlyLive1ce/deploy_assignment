@@ -10,11 +10,11 @@ stages:
       nfiles: 2
     - path: src/data_preprocessing/trades_processing.py
       hash: md5
-      md5: a4a65ee6147a96dbb3a667f04bd576d8
-      size: 3430
+      md5: ddc684bd92c7506e1f400c17358f353f
+      size: 2790
     outs:
     - path: data/processed
       hash: md5
-      md5: 94a32f98c7bf57bdb51f5901b8e75c9c.dir
-      size: 143535
-      nfiles: 6
+      md5: d16b56dc14a97f5892f5040a4a756e23.dir
+      size: 383150
+      nfiles: 4

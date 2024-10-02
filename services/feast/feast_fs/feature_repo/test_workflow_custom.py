@@ -1,80 +1,62 @@
 from feast import FeatureStore
-import hydra
-from omegaconf import DictConfig
 import pandas as pd
-import re
+import os
 
-# Function to get the registry path
-@hydra.main(version_base=None, config_path='configs', config_name='config')
-def get_registry_path(cfg: DictConfig):
-    return './' + cfg['feast_registry_path']
+def get_data_paths():
+    data_dir = './data/processed/'
+    files = [f for f in os.listdir(data_dir) if f.endswith('_custom_features.parquet')]
+    return [os.path.join(data_dir, f) for f in files]
 
-# Function to get the feature repository path
-def get_repo_path():
-    return './services/feast/feast_fs/feature_repo'
-
-# Function to get the data path from the config
-@hydra.main(version_base=None, config_path='configs', config_name='config')
-def get_data_path(cfg: DictConfig):
-    data_path = './data/processed/' + cfg.parquet_file_name+'_custom_features.parquet'
-    return data_path
-
-# Function to load the 'event_timestamp' column from the parquet file
 def load_event_timestamps(data_path):
     parquet_df = pd.read_parquet(data_path)
-    return parquet_df['event_timestamp']
+    return parquet_df['event_timestamp'].astype('datetime64[ns]')
 
-# Function to load the 'trade_id' column from the parquet file
 def load_ids(data_path):
     parquet_df = pd.read_parquet(data_path)
     return parquet_df['trade_id']
 
-# Main function to retrieve historical features
-@hydra.main(version_base=None, config_path='configs', config_name='config')
-def main(cfg: DictConfig):
-    # Get the feature store repository path
-    repo_path = get_repo_path()
-
-    # Initialize the feature store
+def main():
+    repo_path = './services/feast/feast_fs/feature_repo'
     store = FeatureStore(repo_path=repo_path)
 
-    # Get the data path from the config
-    data_path = get_data_path(cfg)
+    data_paths = get_data_paths()
+    
+    for data_path in data_paths:
+        event_timestamps = load_event_timestamps(data_path)
+        trade_ids = load_ids(data_path)
 
-    # Load event timestamps and trade IDs from the parquet file
-    event_timestamps = load_event_timestamps(data_path)
-    trade_ids = load_ids(data_path)
+        entity_df = pd.DataFrame({
+            "trade_id": trade_ids,
+            "event_timestamp": event_timestamps
+        })
 
-    # Create a dataframe containing entity data (trade_id and event_timestamp)
-    entity_df = pd.DataFrame({
-        "trade_id": trade_ids,
-        "event_timestamp": event_timestamps
-    })
+        # Extract the sanitized file name to match the feature view names
+        sanitized_file_name = os.path.basename(data_path).replace('.parquet', '').replace('_custom_features','').replace('/', '_').replace('-', '_')
 
-    # Define the features to retrieve, including the custom ones
-    features = [
-        "processed_binanceAggTrades:price",
-        "processed_binanceAggTrades:percent_to_1000",
-        "processed_binanceAggTrades:aggregated_trades",
-        "processed_binanceAggTrades:price_seen_before",
-        "processed_binanceAggTrades:event_timestamp"
-    ]
+        # Define the features to retrieve, including the custom ones
+        features = [
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:price",
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:qty",
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:percent_to_1000",
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:aggregated_trades",
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:price_seen_before",
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:event_timestamp",
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:isBuyerMaker",
+            f"binanceAggTradesCustomFeatures_{sanitized_file_name}:isBestMatch",
+        ]
+        
+        training_df = store.get_historical_features(
+            entity_df=entity_df,
+            features=features
+        ).to_df()
 
-    # Retrieve historical features
-    training_df = store.get_historical_features(
-        entity_df=entity_df,
-        features=features
-    ).to_df()
+        print(f"----- Feature schema for {data_path} -----\n")
+        print(training_df.info())
 
-    # Print the feature schema
-    print("----- Feature schema -----\n")
-    print(training_df.info())
+        print()
 
-    print()
-
-    # Print example features
-    print("----- Example features -----\n")
-    print(training_df.head())
+        print(f"----- Example features for {data_path} -----\n")
+        print(training_df.head())
 
 if __name__ == "__main__":
     main()

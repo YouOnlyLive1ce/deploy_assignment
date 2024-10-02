@@ -1,0 +1,6 @@
+artifact_location: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490
+creation_time: 1727859667955
+experiment_id: '331902335304981490'
+last_update_time: 1727859667955
+lifecycle_stage: active
+name: xgb gridsearch 4 classes

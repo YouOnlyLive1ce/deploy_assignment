@@ -7,3 +7,4 @@
 # TODO: mlflow ui fix
 # TODO: multirun data feature making
 # TODO: common functions in utils
+# TODO: fix fit_predict each time

@@ -1,0 +1,6 @@
+[2024-10-02 21:13:22,188][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing
+[2024-10-02 21:13:22,197][root][WARNING] - _list_feature_views will make breaking changes. Please use _list_batch_feature_views instead. _list_feature_views will behave like _list_all_feature_views in the future.
+[2024-10-02 21:13:22,197][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing
+[2024-10-02 21:13:22,199][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing
+[2024-10-02 21:13:22,200][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing
+[2024-10-02 21:13:22,204][feast.infra.registry.registry][INFO] - Registry cache expired, so refreshing

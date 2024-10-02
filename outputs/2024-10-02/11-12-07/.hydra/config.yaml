@@ -1,0 +1,3 @@
+feast_registry_path: /data/feast
+traintest: train
+parquet_file_name: val_BTCUSDT-aggTrades-2024-09-16
