@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/c9ba356cd6cd43c9b804b9406d5482d0/artifacts
+end_time: 1728048893526
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: c9ba356cd6cd43c9b804b9406d5482d0
+run_name: funny-lynx-364
+run_uuid: c9ba356cd6cd43c9b804b9406d5482d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728048883612
+status: 3
+tags: []
+user_id: dima

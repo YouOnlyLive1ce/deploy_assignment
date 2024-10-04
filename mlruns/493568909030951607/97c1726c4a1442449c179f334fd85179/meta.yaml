@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/97c1726c4a1442449c179f334fd85179/artifacts
+end_time: 1728046569755
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 97c1726c4a1442449c179f334fd85179
+run_name: wise-slug-515
+run_uuid: 97c1726c4a1442449c179f334fd85179
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046558870
+status: 3
+tags: []
+user_id: dima

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/8bab1bc17f5e4695b0f8902fe14d9ca5/artifacts
+end_time: 1728048893526
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 8bab1bc17f5e4695b0f8902fe14d9ca5
+run_name: sedate-hog-531
+run_uuid: 8bab1bc17f5e4695b0f8902fe14d9ca5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728048883612
+status: 3
+tags: []
+user_id: dima

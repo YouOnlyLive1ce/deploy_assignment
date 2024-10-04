@@ -1,12 +1,12 @@
 FROM python:3.9
 
-WORKDIR /app
+WORKDIR /deployment
 
-COPY . /app
+COPY . /deployment/
 
-RUN pip install fastapi uvicorn scikit-learn xgboost pydantic pandas pyyaml
+RUN pip install fastapi uvicorn scikit-learn xgboost pydantic pandas pyyaml mlflow
 
 EXPOSE 80
 
 #app.app:app - folder.file:object
-CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "deployment.app:app", "--host", "0.0.0.0", "--port", "80"]

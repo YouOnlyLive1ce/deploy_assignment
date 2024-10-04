@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/fe00e5d36e9940daa54f803fcb8755f5/artifacts
+end_time: 1728037751494
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: fe00e5d36e9940daa54f803fcb8755f5
+run_name: dashing-worm-53
+run_uuid: fe00e5d36e9940daa54f803fcb8755f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037743151
+status: 3
+tags: []
+user_id: dima

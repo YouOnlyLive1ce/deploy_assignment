@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/433ea55a76154f6eba97e7a06c4529f0/artifacts
+end_time: 1727979554040
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: 433ea55a76154f6eba97e7a06c4529f0
+run_name: inquisitive-swan-852
+run_uuid: 433ea55a76154f6eba97e7a06c4529f0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727979547186
+status: 3
+tags: []
+user_id: dima

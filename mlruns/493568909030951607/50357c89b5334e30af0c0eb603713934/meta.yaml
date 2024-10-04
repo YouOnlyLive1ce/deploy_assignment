@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/50357c89b5334e30af0c0eb603713934/artifacts
+end_time: 1728046514563
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 50357c89b5334e30af0c0eb603713934
+run_name: carefree-lynx-760
+run_uuid: 50357c89b5334e30af0c0eb603713934
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046503844
+status: 3
+tags: []
+user_id: dima

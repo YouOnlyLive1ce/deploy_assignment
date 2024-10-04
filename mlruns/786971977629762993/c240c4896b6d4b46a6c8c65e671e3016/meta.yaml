@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/c240c4896b6d4b46a6c8c65e671e3016/artifacts
+end_time: 1727978817006
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: c240c4896b6d4b46a6c8c65e671e3016
+run_name: big-ram-926
+run_uuid: c240c4896b6d4b46a6c8c65e671e3016
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727978810459
+status: 3
+tags: []
+user_id: dima

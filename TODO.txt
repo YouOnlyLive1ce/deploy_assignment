@@ -8,3 +8,6 @@
 # TODO: multirun data feature making
 # TODO: common functions in utils
 # TODO: fix fit_predict each time
+# TODO: transformer scaler to fix curve ditribution
+# TODO: common FeatureView for datasets
+# TODO: fix warnings

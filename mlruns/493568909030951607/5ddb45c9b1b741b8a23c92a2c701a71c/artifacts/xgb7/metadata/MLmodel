@@ -1,0 +1,33 @@
+artifact_path: xgb7
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.9.19
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 2.1.1
+mlflow_version: 2.12.2
+model_size_bytes: 740601
+model_uuid: d42657abcaa4456da5af1ccd0cb5a9d0
+run_id: 5ddb45c9b1b741b8a23c92a2c701a71c
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "price", "required": true}, {"type": "double",
+    "name": "qty", "required": true}, {"type": "boolean", "name": "isBuyerMaker",
+    "required": true}, {"type": "boolean", "name": "isBestMatch", "required": true},
+    {"type": "double", "name": "percent_to_1000", "required": true}, {"type": "long",
+    "name": "aggregated_trades", "required": true}, {"type": "boolean", "name": "price_seen_before",
+    "required": true}]'
+  outputs: '[{"type": "long", "name": "class", "required": true}]'
+  params: null
+utc_time_created: '2024-10-04 13:34:53.711051'

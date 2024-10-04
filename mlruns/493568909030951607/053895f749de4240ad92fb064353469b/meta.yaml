@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/053895f749de4240ad92fb064353469b/artifacts
+end_time: 1728046514563
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 053895f749de4240ad92fb064353469b
+run_name: bouncy-doe-924
+run_uuid: 053895f749de4240ad92fb064353469b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046503844
+status: 3
+tags: []
+user_id: dima

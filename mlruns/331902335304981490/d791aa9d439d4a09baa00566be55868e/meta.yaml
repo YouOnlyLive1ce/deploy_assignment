@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/d791aa9d439d4a09baa00566be55868e/artifacts
+end_time: 1728037030857
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: d791aa9d439d4a09baa00566be55868e
+run_name: abundant-midge-397
+run_uuid: d791aa9d439d4a09baa00566be55868e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037023601
+status: 3
+tags: []
+user_id: dima

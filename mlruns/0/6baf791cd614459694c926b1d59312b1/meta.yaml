@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/6baf791cd614459694c926b1d59312b1/artifacts
+end_time: 1728037361642
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6baf791cd614459694c926b1d59312b1
+run_name: marvelous-bass-471
+run_uuid: 6baf791cd614459694c926b1d59312b1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037361620
+status: 4
+tags: []
+user_id: dima

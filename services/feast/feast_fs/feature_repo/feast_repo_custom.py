@@ -8,7 +8,7 @@ from feast import (
     FeatureStore,
     Field
 )
-from feast.types import Int32, Float32, Bool, UnixTimestamp
+from feast.types import Int64, Float64, Bool, UnixTimestamp
 import pandas as pd
 
 def preprocess_data(table):
@@ -55,10 +55,10 @@ def process_all_files():
             source=source,
             online=False,
             schema=[
-                Field(name="price", dtype=Float32),
-                Field(name="qty", dtype=Float32),
-                Field(name="percent_to_1000", dtype=Float32),
-                Field(name="aggregated_trades", dtype=Int32),
+                Field(name="price", dtype=Float64),
+                Field(name="qty", dtype=Float64),
+                Field(name="percent_to_1000", dtype=Float64),
+                Field(name="aggregated_trades", dtype=Int64),
                 Field(name="price_seen_before", dtype=Bool),
                 Field(name="event_timestamp", dtype=UnixTimestamp),
                 Field(name="isBuyerMaker", dtype=Bool),  

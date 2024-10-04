@@ -1,0 +1,8 @@
+positive_class,true_negatives,false_positives,false_negatives,true_positives,example_count,accuracy_score,recall_score,precision_score,f1_score
+0,1573,0,0,754,2327,1.0,1.0,1.0,1.0
+1,1875,0,0,452,2327,1.0,1.0,1.0,1.0
+2,1982,0,0,345,2327,1.0,1.0,1.0,1.0
+3,2315,0,0,12,2327,1.0,1.0,1.0,1.0
+4,1911,0,0,416,2327,1.0,1.0,1.0,1.0
+5,2150,0,0,177,2327,1.0,1.0,1.0,1.0
+6,2156,0,0,171,2327,1.0,1.0,1.0,1.0

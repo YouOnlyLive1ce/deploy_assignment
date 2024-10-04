@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/f4119a5d1a5d4c97aeb1768ea7807d90/artifacts
+end_time: 1727978817006
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: f4119a5d1a5d4c97aeb1768ea7807d90
+run_name: burly-cub-636
+run_uuid: f4119a5d1a5d4c97aeb1768ea7807d90
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727978810459
+status: 3
+tags: []
+user_id: dima

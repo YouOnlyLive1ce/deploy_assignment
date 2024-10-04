@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/759989eb66ba4a889d3cd85c78ff30db/artifacts
+end_time: 1728048893526
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 759989eb66ba4a889d3cd85c78ff30db
+run_name: intelligent-rat-995
+run_uuid: 759989eb66ba4a889d3cd85c78ff30db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728048883612
+status: 3
+tags: []
+user_id: dima

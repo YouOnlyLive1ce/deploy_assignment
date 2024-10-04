@@ -11,11 +11,11 @@ st.title("Trades Classification")
 class InputData(BaseModel):
     price: float
     qty: float
-    isBuyerMaker: int
-    isBestMatch: int
-    percent_to_1000: int
+    isBuyerMaker: bool
+    isBestMatch: bool
+    percent_to_1000: float
     aggregated_trades: int
-    price_seen_before: int
+    price_seen_before: bool
 
 # Input fields for user to enter data
 price = st.number_input("Price", min_value=0.0)
@@ -27,15 +27,13 @@ aggregated_trades = st.number_input("Amount of trades", min_value=0.0)
 price_seen_before = st.number_input("Price seen before?", min_value=0.0)
 model_name = st.text_input("Model Name")
 
-# Button to trigger prediction
 if st.button("Predict"):
-    # TODO: Create a InputData instance
     trade_data = InputData(
         price=price,
         qty=qty,
         isBuyerMaker=int(isBuyerMaker),
         isBestMatch=int(isBestMatch),
-        percent_to_1000=int(percent_to_1000),
+        percent_to_1000=percent_to_1000,
         aggregated_trades=int(aggregated_trades),
         price_seen_before=int(price_seen_before)
     )

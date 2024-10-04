@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/3951425e8a534eddbd5bd53e563ead05/artifacts
+end_time: 1728046569755
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 3951425e8a534eddbd5bd53e563ead05
+run_name: bright-boar-306
+run_uuid: 3951425e8a534eddbd5bd53e563ead05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046558870
+status: 3
+tags: []
+user_id: dima

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/78a7d02d68534cee847975736b1b3562/artifacts
+end_time: 1728046569755
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 78a7d02d68534cee847975736b1b3562
+run_name: delightful-donkey-8
+run_uuid: 78a7d02d68534cee847975736b1b3562
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046558870
+status: 3
+tags: []
+user_id: dima

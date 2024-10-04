@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/5e88e7200a4b41529549f086bf07c375/artifacts
+end_time: 1728037030857
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: 5e88e7200a4b41529549f086bf07c375
+run_name: brawny-grub-260
+run_uuid: 5e88e7200a4b41529549f086bf07c375
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037023601
+status: 3
+tags: []
+user_id: dima

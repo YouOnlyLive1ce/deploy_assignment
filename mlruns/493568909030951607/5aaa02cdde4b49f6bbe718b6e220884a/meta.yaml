@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/5aaa02cdde4b49f6bbe718b6e220884a/artifacts
+end_time: 1728046968601
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 5aaa02cdde4b49f6bbe718b6e220884a
+run_name: whimsical-eel-325
+run_uuid: 5aaa02cdde4b49f6bbe718b6e220884a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046958640
+status: 3
+tags: []
+user_id: dima

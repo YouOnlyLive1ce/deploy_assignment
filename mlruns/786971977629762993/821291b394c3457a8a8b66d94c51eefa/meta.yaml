@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/821291b394c3457a8a8b66d94c51eefa/artifacts
+end_time: 1727979554040
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: 821291b394c3457a8a8b66d94c51eefa
+run_name: bustling-dog-648
+run_uuid: 821291b394c3457a8a8b66d94c51eefa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727979547186
+status: 3
+tags: []
+user_id: dima

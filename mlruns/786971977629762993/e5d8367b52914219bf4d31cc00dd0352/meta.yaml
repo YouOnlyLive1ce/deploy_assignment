@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/e5d8367b52914219bf4d31cc00dd0352/artifacts
+end_time: 1727978817006
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: e5d8367b52914219bf4d31cc00dd0352
+run_name: respected-stork-43
+run_uuid: e5d8367b52914219bf4d31cc00dd0352
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727978810459
+status: 3
+tags: []
+user_id: dima

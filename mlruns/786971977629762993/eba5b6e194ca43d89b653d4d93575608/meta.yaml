@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/eba5b6e194ca43d89b653d4d93575608/artifacts
+end_time: 1727979554040
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: eba5b6e194ca43d89b653d4d93575608
+run_name: polite-cow-634
+run_uuid: eba5b6e194ca43d89b653d4d93575608
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727979547186
+status: 3
+tags: []
+user_id: dima

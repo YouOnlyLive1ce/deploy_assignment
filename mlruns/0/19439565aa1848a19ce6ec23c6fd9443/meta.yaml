@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/19439565aa1848a19ce6ec23c6fd9443/artifacts
+end_time: 1728048917774
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 19439565aa1848a19ce6ec23c6fd9443
+run_name: gregarious-doe-828
+run_uuid: 19439565aa1848a19ce6ec23c6fd9443
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728048917227
+status: 3
+tags: []
+user_id: dima

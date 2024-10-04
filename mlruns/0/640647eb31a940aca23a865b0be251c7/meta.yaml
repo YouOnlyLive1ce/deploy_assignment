@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/640647eb31a940aca23a865b0be251c7/artifacts
+end_time: 1728037278685
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 640647eb31a940aca23a865b0be251c7
+run_name: capricious-newt-257
+run_uuid: 640647eb31a940aca23a865b0be251c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037278662
+status: 4
+tags: []
+user_id: dima

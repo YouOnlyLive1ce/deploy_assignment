@@ -1,0 +1,29 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.12.2
+model_size_bytes: 190852
+model_uuid: cbfaaddefd174fc08659c189468e22ab
+run_id: 56a55cbdde564b268d36513cf8c7e0a0
+signature:
+  inputs: '[{"type": "float", "name": "price", "required": true}, {"type": "float",
+    "name": "qty", "required": true}, {"type": "integer", "name": "isBuyerMaker",
+    "required": true}, {"type": "integer", "name": "isBestMatch", "required": true},
+    {"type": "float", "name": "percent_to_1000", "required": true}, {"type": "long",
+    "name": "aggregated_trades", "required": true}, {"type": "boolean", "name": "price_seen_before",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-10-04 13:02:45.366441'

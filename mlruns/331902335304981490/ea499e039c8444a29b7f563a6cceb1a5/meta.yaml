@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/ea499e039c8444a29b7f563a6cceb1a5/artifacts
+end_time: 1728037751494
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: ea499e039c8444a29b7f563a6cceb1a5
+run_name: bright-shoat-937
+run_uuid: ea499e039c8444a29b7f563a6cceb1a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037743151
+status: 3
+tags: []
+user_id: dima

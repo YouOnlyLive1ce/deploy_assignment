@@ -2,3 +2,4 @@ defaults:
   - datasets: default
   - hydra/sweeper: optuna
   - services/feast/feast_fs/feature_repo/configs : default
+model: 'xgb'

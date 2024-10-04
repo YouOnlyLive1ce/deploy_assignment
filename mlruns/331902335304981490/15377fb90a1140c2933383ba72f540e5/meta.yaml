@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/15377fb90a1140c2933383ba72f540e5/artifacts
+end_time: 1728037751494
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: 15377fb90a1140c2933383ba72f540e5
+run_name: dashing-hog-387
+run_uuid: 15377fb90a1140c2933383ba72f540e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037743151
+status: 3
+tags: []
+user_id: dima

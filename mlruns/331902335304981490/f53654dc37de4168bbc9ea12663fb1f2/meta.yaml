@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/f53654dc37de4168bbc9ea12663fb1f2/artifacts
+end_time: 1728037030857
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: f53654dc37de4168bbc9ea12663fb1f2
+run_name: selective-bass-516
+run_uuid: f53654dc37de4168bbc9ea12663fb1f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037023601
+status: 3
+tags: []
+user_id: dima

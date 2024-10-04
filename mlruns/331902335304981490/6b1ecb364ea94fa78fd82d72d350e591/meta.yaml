@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/331902335304981490/6b1ecb364ea94fa78fd82d72d350e591/artifacts
+end_time: 1728037470252
+entry_point_name: ''
+experiment_id: '331902335304981490'
+lifecycle_stage: active
+run_id: 6b1ecb364ea94fa78fd82d72d350e591
+run_name: mysterious-midge-760
+run_uuid: 6b1ecb364ea94fa78fd82d72d350e591
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037462910
+status: 3
+tags: []
+user_id: dima

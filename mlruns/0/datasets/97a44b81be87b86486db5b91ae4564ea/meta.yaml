@@ -1,0 +1,17 @@
+digest: 45be2666
+name: dataset
+profile: '{"num_rows": 508, "num_elements": 7620}'
+schema: '{"mlflow_colspec": [{"type": "float", "name": "price", "required": true},
+  {"type": "float", "name": "qty", "required": true}, {"type": "integer", "name":
+  "isBuyerMaker", "required": true}, {"type": "integer", "name": "isBestMatch", "required":
+  true}, {"type": "float", "name": "percent_to_1000", "required": true}, {"type":
+  "long", "name": "aggregated_trades", "required": true}, {"type": "boolean", "name":
+  "price_seen_before", "required": true}, {"type": "integer", "name": "year", "required":
+  true}, {"type": "integer", "name": "month", "required": true}, {"type": "integer",
+  "name": "day", "required": true}, {"type": "integer", "name": "hour", "required":
+  true}, {"type": "integer", "name": "minute", "required": true}, {"type": "integer",
+  "name": "second", "required": true}, {"type": "long", "name": "label", "required":
+  true}, {"type": "long", "name": "predictions", "required": true}]}'
+source: '{"tags": {"mlflow.user": "dima", "mlflow.source.name": "ml/test.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "4075283b4a9a45118729562b054b12cabafc77b1"}}'
+source_type: code

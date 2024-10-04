@@ -1,15 +1,14 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-from .model import load_model
+import mlflow
 
-def model_pipeline(data_test: pd.DataFrame, model_name: str) -> pd.DataFrame:
-    model_fn = load_model(model_name)
+def model_pipeline(data_test: pd.DataFrame, model_name) -> pd.DataFrame:
+    model = mlflow.pyfunc.load_model(model_uri=f"models:/{model_name}/2")
     
     scaler = StandardScaler()
-    data_test[['price','qty']] = scaler.fit_transform(data_test[['price','qty']]).astype('float32')
+    data_test[['price','qty','percent_to_1000']] = scaler.fit_transform(data_test[['price','qty','percent_to_1000']]).astype('float32')
+    data_test[['isBuyerMaker', 'isBestMatch']]=data_test[['isBuyerMaker','isBestMatch']].astype('int32')
     
-    predictions = model_fn(data_test)
+    predictions = model.predict(data_test)
     
     return predictions
-
-# TODO: transformer scaler to fix curve ditribution

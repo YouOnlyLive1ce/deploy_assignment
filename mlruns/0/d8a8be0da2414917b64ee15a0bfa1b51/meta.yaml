@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/d8a8be0da2414917b64ee15a0bfa1b51/artifacts
+end_time: 1728049451305
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8a8be0da2414917b64ee15a0bfa1b51
+run_name: able-bug-753
+run_uuid: d8a8be0da2414917b64ee15a0bfa1b51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728049450756
+status: 3
+tags: []
+user_id: dima

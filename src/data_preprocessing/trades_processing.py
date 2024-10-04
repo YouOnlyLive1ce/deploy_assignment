@@ -10,16 +10,12 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
         # Remove anti-outliers, since lots of repeated rows and noise
         # Delete 90% of rows where the quantity (column 2) is <0.0005
         zero_quantity_rows = chunk[chunk[2] < 0.001]
-        chunk = chunk.drop(zero_quantity_rows.sample(frac=0.90).index)
-        middle_quantity_rows = chunk[chunk[2] < 0.5]
-        chunk = chunk.drop(middle_quantity_rows.sample(frac=0.60).index)
+        chunk = chunk.drop(zero_quantity_rows.sample(frac=0.95).index)
+        middle_quantity_rows = chunk[chunk[2] < 0.1]
+        chunk = chunk.drop(middle_quantity_rows.sample(frac=0.50).index)
         
         # Quantization
         chunk.columns = chunk.columns.astype(str)
-        chunk['1']=chunk['1'].astype('float32')
-        chunk['2']=chunk['2'].astype('float32')
-        chunk['6']=chunk['6'].astype('int32')
-        chunk['7']=chunk['7'].astype('int32')
         
         chunk = chunk.rename(columns={
             '0': 'trade_id',
@@ -31,7 +27,7 @@ def process_trades_in_chunks(input_file, output_file_train, output_file_test, ch
             '6': 'isBuyerMaker',
             '7': 'isBestMatch'
         })
-        train, test = train_test_split(chunk, test_size=0.2)
+        train, test = train_test_split(chunk, test_size=0.2, shuffle=True) # Dataset is highly inbalanced
         
         # Write train and test chunks to respective output files
         train_df = pd.DataFrame(train)

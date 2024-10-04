@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/81215527005c4a19b88789b98decd09a/artifacts
+end_time: 1728046569755
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 81215527005c4a19b88789b98decd09a
+run_name: skillful-snipe-444
+run_uuid: 81215527005c4a19b88789b98decd09a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046558870
+status: 3
+tags: []
+user_id: dima

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/3e72adbb7b8c4078a673507d43ea008c/artifacts
+end_time: 1727979592692
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e72adbb7b8c4078a673507d43ea008c
+run_name: receptive-snake-384
+run_uuid: 3e72adbb7b8c4078a673507d43ea008c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727979592247
+status: 3
+tags: []
+user_id: dima

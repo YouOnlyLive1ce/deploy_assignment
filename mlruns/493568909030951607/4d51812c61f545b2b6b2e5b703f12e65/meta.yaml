@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/4d51812c61f545b2b6b2e5b703f12e65/artifacts
+end_time: 1728046968601
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 4d51812c61f545b2b6b2e5b703f12e65
+run_name: delicate-bee-905
+run_uuid: 4d51812c61f545b2b6b2e5b703f12e65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728046958640
+status: 3
+tags: []
+user_id: dima

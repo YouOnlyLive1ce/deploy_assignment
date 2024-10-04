@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/25ca8eede9154760b421c3443a670b98/artifacts
+end_time: 1728037496400
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25ca8eede9154760b421c3443a670b98
+run_name: skillful-ray-540
+run_uuid: 25ca8eede9154760b421c3443a670b98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037496378
+status: 4
+tags: []
+user_id: dima

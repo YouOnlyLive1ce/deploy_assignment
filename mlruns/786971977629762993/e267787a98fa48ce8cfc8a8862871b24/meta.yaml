@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/786971977629762993/e267787a98fa48ce8cfc8a8862871b24/artifacts
+end_time: 1727978817006
+entry_point_name: ''
+experiment_id: '786971977629762993'
+lifecycle_stage: active
+run_id: e267787a98fa48ce8cfc8a8862871b24
+run_name: luminous-shad-897
+run_uuid: e267787a98fa48ce8cfc8a8862871b24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727978810459
+status: 3
+tags: []
+user_id: dima

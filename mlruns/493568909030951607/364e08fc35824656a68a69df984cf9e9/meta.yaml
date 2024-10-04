@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/364e08fc35824656a68a69df984cf9e9/artifacts
+end_time: 1728048893526
+entry_point_name: ''
+experiment_id: '493568909030951607'
+lifecycle_stage: active
+run_id: 364e08fc35824656a68a69df984cf9e9
+run_name: valuable-cow-500
+run_uuid: 364e08fc35824656a68a69df984cf9e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728048883612
+status: 3
+tags: []
+user_id: dima

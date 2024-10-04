@@ -1,0 +1,33 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+mlflow_version: 2.12.2
+model_size_bytes: 109108
+model_uuid: 1a7cac22fdc94a5697b77672a7fe4fab
+run_id: 1885674d9b6345e4a55fb51fbe615699
+signature:
+  inputs: '[{"type": "float", "name": "price", "required": true}, {"type": "float",
+    "name": "qty", "required": true}, {"type": "integer", "name": "isBuyerMaker",
+    "required": true}, {"type": "integer", "name": "isBestMatch", "required": true},
+    {"type": "float", "name": "percent_to_1000", "required": true}, {"type": "long",
+    "name": "aggregated_trades", "required": true}, {"type": "boolean", "name": "price_seen_before",
+    "required": true}, {"type": "integer", "name": "year", "required": true}, {"type":
+    "integer", "name": "month", "required": true}, {"type": "integer", "name": "day",
+    "required": true}, {"type": "integer", "name": "hour", "required": true}, {"type":
+    "integer", "name": "minute", "required": true}, {"type": "integer", "name": "second",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-10-04 10:24:26.982002'

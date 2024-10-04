@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1728049451324
+current_stage: None
+description: null
+last_updated_timestamp: 1728049451324
+name: xgb
+run_id: c105a676b4d34e4e8e7e2ef9f6e86af8
+run_link: null
+source: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/c105a676b4d34e4e8e7e2ef9f6e86af8/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///home/dima/pmldl/deploy_assignment/mlruns/493568909030951607/c105a676b4d34e4e8e7e2ef9f6e86af8/artifacts/model
+user_id: null
+version: 4

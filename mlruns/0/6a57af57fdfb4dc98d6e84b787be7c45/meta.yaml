@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/6a57af57fdfb4dc98d6e84b787be7c45/artifacts
+end_time: 1727984273945
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a57af57fdfb4dc98d6e84b787be7c45
+run_name: gentle-tern-283
+run_uuid: 6a57af57fdfb4dc98d6e84b787be7c45
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727984273276
+status: 3
+tags: []
+user_id: dima

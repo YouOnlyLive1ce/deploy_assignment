@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dima/pmldl/deploy_assignment/mlruns/0/ccbcd59a0c2b4c0ab09ddb5584fc7c62/artifacts
+end_time: 1728037325939
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccbcd59a0c2b4c0ab09ddb5584fc7c62
+run_name: redolent-bug-788
+run_uuid: ccbcd59a0c2b4c0ab09ddb5584fc7c62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728037325917
+status: 4
+tags: []
+user_id: dima
