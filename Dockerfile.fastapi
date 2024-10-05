@@ -1,8 +1,11 @@
 FROM python:3.9
 
-WORKDIR /deployment
+WORKDIR /app
 
-COPY . /deployment/
+COPY ./deployment /app/deployment
+COPY ./configs /app/configs
+COPY ./ml /app/ml
+COPY ./mlruns /app/mlruns
 
 RUN pip install fastapi uvicorn scikit-learn xgboost pydantic pandas pyyaml mlflow
 

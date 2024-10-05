@@ -27,7 +27,6 @@ async def lifespan(app: FastAPI):
     with open(config_path, "r") as file:
         config = yaml.safe_load(file)
         model_name = config.get("model")
-        print(f"Loaded model: {model_name}")
         
     ml_models[model_name] = model_pipeline
     yield
